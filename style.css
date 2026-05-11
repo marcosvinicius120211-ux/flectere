@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    background: #111;
+    color: white;
+    justify-content: space-between;
+    padding: 15px 30px;
+    align-items: center;
+}
+
+.logo{
+    font-size: 50px;
+    font-weight: bold;
+    display: inline;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: #000000;
+}
+
+.banner{
+    width: 1500px;
+    height: 250px;
+    background: url(https://www.jubarex.com.br/assets/imagens/3d-Emoji-Download-PNG-Image.png) no-repeat center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.banner h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.banner button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background: #f0a500;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.produtos{
+    padding: 40px;
+    text-align: center;
+}
+
+.produtos h2{
+    padding: 40px;
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.fundo{
+    background: black;
+    border-radius: 30px;
+    border-color: white;
+    border: solid;
+    padding: 5px 5px;
+    transition: 0.3s;
+    cursor: pointer;
+    display: inline;
+}
+
+.fundo:hover{
+    background: white;
+    border-color: black;
+}
+
+.Card{
+    border: 1px solid #000000;
+    padding: 15px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.Card:hover{
+    transform: scale(1.05);
+}
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card button{
+    margin-top: 10px;
+    padding: 8px;
+    border: none;
+    background: #111;
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+footer{
+    background: #111;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    padding: 15px;
+}
+
+.contato{
+    padding: 50px 20px;
+    background: #f5f5f5;
+    text-align: center;
+}
+
+.contato h2{
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+.contato form{
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contato input, .contato textarea{
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+}
+
+.contato textarea{
+    height: 120px;
+    resize: none;
+}
+
+.contato button{
+    padding: 12px;
+    border: none;
+    background: #111;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contato button:hover{
+    background: #f5f5f5;
+    border: 5px solid black;
+    color: #111;
+}
